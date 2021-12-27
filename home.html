@@ -1,0 +1,75 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Home Page</title>
+    <!--  <style type="text/css">
+            /*You can write all css styles here*/
+            label{
+                font-size: 50px;
+                color: maroon;    
+            }
+        </style> -->
+        
+        <!--linking html with css page rel=relation href=location/name of the css page-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="nav">
+            <!--Logo/picture of our site-->
+            
+           <!-- Another way of writting css codes with html
+            <label style="font-size: 50px; color: maroon;">Fursa</label> -->
+            
+            <label id="logo">Fursa</label>
+            <!--On our header we will have list of our links using unordered list(ul) and inside it we will have lists of links-->
+            <ul class="top-left-nav">
+                <li><a href="home.html" id="active">Home</a></li>
+                <li><a href="post.html">Posts</a></li>
+                <li><a href="about.html">About Us</a></li>   
+            </ul>
+            <ul class="top-right-nav">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </div>
+        
+        <div class="main-content">
+            <h1>Welcome to <br>Fursa Dealers</h1>
+            <center><i><h2>Home of Buyers and Sellers</h2></i>
+            <img src="header2.jpg"></center>
+        </div>
+        
+        <div class="footer">
+            
+           <div class="footer1"> <!--About Us content*-->
+               <h3>About Us</h3>
+               <ul>
+                   <li>information</li>
+                   <li>information</li>
+                   <li>information</li>
+               </ul>
+            </div>
+            
+            <div class="footer2">  <!--Contact Us content-->
+                <h3>Contact Us</h3>
+                <ul>
+                   <li>information</li>
+                   <li>information</li>
+                   <li>information</li>
+               </ul>
+            
+            </div>
+            
+            <div class="footer3">  <!--Feedback Form-->
+                <h3>Feedback</h3>
+                <form>
+                    <input type="email" placeholder="Email Address"><br>
+                    <textarea name="body" placeholder="Content.."></textarea><br>
+                    <button name="Submit">Submit</button>
+                </form>
+            
+            </div>
+        
+        </div>
+    </body>
+</html>

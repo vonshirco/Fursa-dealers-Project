@@ -1,0 +1,212 @@
+body{
+   /* background: lightblue;*/
+    background-image:url("body.jpg");
+    background-size: 50%;
+    width: 1024px;
+   /* border: 1px solid;*/
+    margin:auto; /*Attribute which makes the element at the center (equal margin from left and right*/
+}
+
+.nav{
+    /*border: 1px solid black;*/
+    padding: 5px;
+}
+
+#logo{
+    font-size: 50px;
+    font-weight: bold;
+    color: darkblue;
+    font-family: arial; /*For more font family use google*/
+    float:left; /*To be at the left and other lists to follow/be in the same line*/
+}
+
+.top-left-nav{
+    float: left;
+    list-style-type: none; /*To remove the bullet-in of the lists*/
+}
+
+.top-left-nav li, .top-right-nav li{ /*merging two elements to share the same styles (separating them with a , )*/
+    display: inline-block; /*so as the links to be in one horizantal line*/
+   /* border: 1px solid black; /*creating border of the list/link element*/ 
+   /* padding: 10px; /*spacing between element(list) and border*/ 
+    margin-top: 0px; 
+}
+
+.top-left-nav li a, .top-right-nav li a{
+    text-decoration: none; /*to remove line under the link texts*/
+    color: black; /*color of the link texts*/
+    border:1px solid;
+    padding: 10px;
+    background: white;
+}
+
+.top-left-nav li a:hover, .top-right-nav li a:hover{
+    background: #3235a1;
+    color: white;
+}
+
+.top-right-nav{
+    float:right;
+    list-style-type: none;
+}
+
+#active{      /*Change color of active navigation in menubar*/
+    background: #3235a1;
+    color: white;
+}
+
+.main-content{
+    clear:both; /*To separate the footer with other parts of the body(nav and main-content) or left and right float of the nav(header) part*/ 
+    width: 100%;
+    min-height: 500px; /*Of the main content space*/
+    max-height: auto; /*Space increases/maximizes as you keep on adding content*/
+   /* background-image:url("body.jpg");
+    background-size: 100%; */
+    background: #f2fcf9;
+    margin-bottom: 10px; /*space between main-content and footer*/
+    opacity: 1.0;
+    padding: 10px;
+}
+
+.main-content h1{
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 2px; /*To move down alittle*/
+}
+
+.post{
+    width:95%;
+    height: 150px;
+    margin: 20px; /*Margin in every position*/
+    background: #9eadf7;
+}
+
+.post img{
+    width: 140px;
+    height: 140px;
+    padding: 5px;
+    float: left;
+}
+
+.post-content{
+    float: left;
+}
+
+.post-content h2,p{
+    color: white;
+    font-family: arial;
+    padding: 10px;
+    padding-left: 20px; /*Space from the image to the words*/
+}
+
+#about-img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.about-content{
+    float: left;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-left: 2px solid darkblue;
+    padding-left: 10px;
+}
+
+.about-content h2,p{
+    color: black;
+    font-family: arial;
+}
+
+.logo-login{
+    padding: 0;
+    padding-top: 100px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.logo-login img{
+    width: 100px;
+    height: 100px;
+}
+
+.form{
+    width:500px;
+    margin: auto; /*The form to be at the center*/
+    margin-top: 30px; /*Space between Logo and the form*/
+}
+
+.form input,select{
+    width:100%;
+    padding: 10px;
+    margin-bottom: 10px /*Space at the bottom of each input*/
+}
+
+.form button{
+    background: #3235a1;
+    color: white;
+    padding: 10px; /*distance between element and its border*/
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.form button:hover{
+   opacity: 0.7;
+}
+
+
+.footer{
+
+    width:1024px;
+    height: 180px;
+    /*border: 1px solid;*/
+    background: #f2fcf9;
+}
+
+h3{
+    margin: 0;
+    padding: 5px;
+}
+
+.footer1{
+    width:320px;
+    float:left;
+   /* border-right: 2px solid;*/
+}
+
+.footer2{
+    padding-left: 20px;     /*Space between boarder and the element*/
+    width:320px;
+    float:left; 
+   /* border-right: 2px solid;*/
+}
+
+.footer3{
+    padding-left: 20px;
+    width:320px;
+    float:left;  
+}
+
+.footer3 input,textarea{
+    width:100%;
+    margin-bottom: 10px;
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+.footer3 button{
+    background: #3235a1;
+    color: white;
+    padding: 10px; /*distance between element and its border*/
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.footer3 button:hover{
+   opacity: 0.7;
+}
